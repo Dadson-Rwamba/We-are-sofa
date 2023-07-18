@@ -1,0 +1,31 @@
+img{
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+p{
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates three equal-width columns */
+    grid-gap: 8px; /* Adds spacing between columns */
+}
+.grid-item {
+background-color: #dcd2d2;
+padding: 10px;
+}
+footer{
+    text-align: center;
+    padding: 50px;
+}
+footer img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
